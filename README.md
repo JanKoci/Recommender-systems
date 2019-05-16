@@ -1,5 +1,16 @@
 # Recommender Systems for web articles
-This work was created as a part of my bachelor's thesis. It contains the following files:
+This repository was created as a part of my bachelor's thesis. \
+To be able to work with the pre-trained Doc2Vec model (the __load_pretrained__ method in the __Doc2VecModel__ class) it is necessary to first download the pre-trained model: 
+- [English Wikipedia DBOW (1.4GB)](https://ibm.ent.box.com/s/3f160t4xpuya9an935k84ig465gvymm2)
+
+The model was retrieved from the following GitHub repository:
+- [jhlau/doc2vec](https://github.com/jhlau/doc2vec)
+
+After downloading the model you have to unzip its content and place the __enwiki_dbow__ directory it into the __data/processed__ folder. After that the pretrained binary model should be availabe at __data/processed/enwiki_dbow/doc2vec.bin__.
+
+The __experiments.ipynb__ ipython notebook contains the experiments performed with our implementer recommender models. It  explains the usage of all models and provides an easy and straightforward way of reviewing their capabilities.
+
+This repository consists of the following contents:
 
 - __data__: directory with datasets
   - _json_: contains metadata in JSON
