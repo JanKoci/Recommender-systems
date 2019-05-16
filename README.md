@@ -1,6 +1,8 @@
 # Recommender Systems for web articles
-This repository was created as a part of my bachelor's thesis. \
-To be able to work with the pre-trained Doc2Vec model (the __load_pretrained__ method in the __Doc2VecModel__ class) it is necessary to first download the pre-trained model: 
+This repository was created as a part of my bachelor's thesis.
+
+! To be able to work with the pre-trained Doc2Vec model (the __load_pretrained__ method in the __Doc2VecModel__ class) it is 
+necessary to first download the pre-trained model: 
 - [English Wikipedia DBOW (1.4GB)](https://ibm.ent.box.com/s/3f160t4xpuya9an935k84ig465gvymm2)
 
 The model was retrieved from the following GitHub repository:
