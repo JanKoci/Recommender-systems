@@ -11,7 +11,7 @@ The model was retrieved from the following GitHub repository:
 After downloading the model you have to unzip its content and place the __enwiki_dbow__ directory into the __data/processed__ folder. After that the pretrained binary model should be availabe at __data/processed/enwiki_dbow/doc2vec.bin__.
 
 ### Performing experiments
-To review the experiments performed with our models refer to the __experiments.ipynb__ file. This ipython notebook explains the usage of our models and describes the process of their evaluation. It also shows some of the experiments created in the course of this thesis and enables one to further play with the models and study their abilities.
+To review the experiments performed with our models refer to the [experiments.ipynb](https://github.com/JanKoci/Recommender-systems/blob/master/src/experiments.ipynb) file. This ipython notebook explains the usage of our models and describes the process of their evaluation. It also shows some of the experiments created in the course of this thesis and enables one to further play with the models and study their abilities.
 
 ### Directory structure
 Besides the implemented recommenders this repository also includes all required datasets and latex source files used to create its pdf documentation. The repository forms the following structure:
