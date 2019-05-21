@@ -1,0 +1,11 @@
+visitor_id,user_id,page_name,page_url,time
+11111,,page|name|1,www.page1.com,21
+22222,,page|name|1,www.page1.com,21
+33333,23,page|name|2,www.page2.com,21
+11111,21,page|name|3,www.page3.com,21
+22222,22,page|name|3,www.page3.com,21
+55555,21,page|name|3,www.page3.com,21
+66666,22,page|name|3,www.page3.com,21
+44444,,page|name|1,www.page1.com,21
+44444,,page|name|2,www.page2.com,2123
+44444,23,page|name|1,www.page1.com,21

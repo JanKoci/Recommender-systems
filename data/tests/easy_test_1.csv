@@ -1,0 +1,4 @@
+visitor_id,user_id,page_name,page_url,time
+11111,,page|name|1,www.page1.com,21
+22222,,page|name|1,www.page1.com,21
+33333,23,page|name|2,www.page2.com,21
